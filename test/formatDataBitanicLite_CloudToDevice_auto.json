@@ -1,0 +1,29 @@
+{
+    "type": "lite",
+    "mode": "auto",
+    "jadwal": null,
+    "setting": {
+        "sensor_threshold": [
+            {
+                "nama": "ph",
+                "min": 7.5,
+                "max": 8.0
+            },
+            {
+                "nama": "tds",
+                "min": 19000,
+                "max": 20000
+            }
+        ],
+        "output": [
+            {
+                "nama":"pompa1",
+                "active": true
+            },
+            {
+                "nama":"pompa2",
+                "active": true
+            }
+        ]
+    }
+}

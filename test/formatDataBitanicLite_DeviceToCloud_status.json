@@ -1,0 +1,35 @@
+{
+    "ID": "BL000001",
+    "firmware": "2.5.4",
+    "activation": "Activated",
+    "specification": {
+        "totalOutput": 2,
+        "totalInput": 2
+    },
+    "statusPerangkat": {
+        "output": [
+            {
+                "nama": "pompa1",
+                "active": true
+            },
+            {
+                "nama": "pompa2",
+                "active": true
+            }
+        ],
+        "input": [
+            {
+                "nama": "sensorPH",
+                "value": 7.5
+            },
+            {
+                "nama": "sensorTDS",
+                "value": 300
+            }
+        ],
+        "dateTime": {
+            "date": "19/01/2024",
+            "time": "10:11:12"
+        }
+    }
+}

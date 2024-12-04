@@ -1,0 +1,138 @@
+{
+    "ID": "NF09",
+    "firmware": "2.5.4",
+    "activation": "Activated",
+    "specification": {
+        "totalOutput": 6,
+        "totalInput": 4
+    },
+    "statusJadwal": {
+        "air": {
+            "days": [
+                "jum'at"
+            ],
+            "setontimes": [
+                {
+                    "time": "10:00:00",
+                    "delay": 5,
+                    "lands": [
+                        {
+                            "id": 1,
+                            "duration": 0,
+                            "seconds": 24
+                        },
+                        {
+                            "id": 2,
+                            "duration": 0,
+                            "seconds": 24
+                        }
+                    ],
+                    "status": {
+                        "kondisi": "off",
+                        "currentLand": null
+                    }
+                },
+                {
+                    "time": "10:12:00",
+                    "delay": 5,
+                    "lands": [
+                        {
+                            "id": 2,
+                            "duration": 0,
+                            "seconds": 24
+                        },
+                        {
+                            "id": 1,
+                            "duration": 0,
+                            "seconds": 24
+                        }
+                    ],
+                    "status": {
+                        "kondisi": "off",
+                        "currentLand": null
+                    }
+                }
+            ]
+        },
+        "pemupukan": {
+            "days": [
+                "jum'at"
+            ],
+            "setontimes": [
+                {
+                    "time": "10:03:00",
+                    "delay": 5,
+                    "lands": [
+                        {
+                            "id": 2,
+                            "duration": 0,
+                            "seconds": 12,
+                            "first_water": {
+                                "minutes": 0,
+                                "seconds": 30
+                            },
+                            "last_water": {
+                                "minutes": 0,
+                                "seconds": 30
+                            }
+                        },
+                        {
+                            "id": 1,
+                            "duration": 0,
+                            "seconds": 12,
+                            "first_water": {
+                                "minutes": 0,
+                                "seconds": 30
+                            },
+                            "last_water": {
+                                "minutes": 0,
+                                "seconds": 30
+                            }
+                        }
+                    ],
+                    "status": {
+                        "kondisi": "on",
+                        "currentLand": 1
+                    }
+                }
+            ]
+        },
+        "tglAkhirPenjadwalan": "03/05/2024",
+        "totalPekan": 15,
+        "sisaPekan": 14,
+        "currentPekan": 1
+    },
+    "statusPerangkat": {
+        "output": {
+            "pompaUtama": "off",
+            "valveAir": "off",
+            "valvePemupukan": "off",
+            "valveLahan1": "off",
+            "valveLahan2": "off",
+            "valveLahan3": "off",
+            "valveLahan4": "off"
+        },
+        "input": {
+            "DHTLahan1": {
+                "temperature": 28.39999962,
+                "humidity": 74.30000305
+            },
+            "DHTLahan2": {
+                "temperature": 0,
+                "humidity": 0
+            },
+            "flowMeterLahan1": {
+                "flow": 0,
+                "volume": 0
+            },
+            "flowMeterLahan2": {
+                "flow": 0,
+                "volume": 0
+            }
+        },
+        "dateTime": {
+            "date": "19/01/2024",
+            "time": "10:11"
+        }
+    }
+}

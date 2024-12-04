@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "Nutriferad",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"system_error": "cpp"
+		}
+	}
+}

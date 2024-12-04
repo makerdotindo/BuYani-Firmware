@@ -1,0 +1,125 @@
+{
+    "mode": "auto",
+    "jadwal": {
+        "minggu": 1,
+        "air": {
+            "days": [
+                "minggu",
+                "senin",
+                "selasa",
+                "jum'at",
+                "rabu",
+                "kamis"
+            ],
+            "setontimes": [
+                {
+                    "time": "10:50",
+                    "delay": 5,
+                    "lands": [
+                        {
+                            "id": 4,
+                            "duration": 0,
+                            "seconds": 1,
+                            "first_water": {
+                                "minutes": 0,
+                                "seconds": 1
+                            },
+                            "last_water": {
+                                "minutes": 4,
+                                "seconds": 1
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "duration": 0,
+                            "seconds": 1,
+                            "first_water": {
+                                "minutes": 0,
+                                "seconds": 1
+                            },
+                            "last_water": {
+                                "minutes": 4,
+                                "seconds": 1
+                            }
+                        }
+                    ]
+                },
+                {
+                    "time": "10:52",
+                    "delay": 5,
+                    "lands": [
+                        {
+                            "id": 1,
+                            "duration": 0,
+                            "seconds": 1,
+                            "first_water": {
+                                "minutes": 0,
+                                "seconds": 1
+                            },
+                            "last_water": {
+                                "minutes": 4,
+                                "seconds": 1
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "duration": 0,
+                            "seconds": 1,
+                            "first_water": {
+                                "minutes": 0,
+                                "seconds": 1
+                            },
+                            "last_water": {
+                                "minutes": 4,
+                                "seconds": 1
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "pemupukan": {
+            "days": [
+                "minggu",
+                "senin",
+                "selasa",
+                "jum'at"
+            ],
+            "setontimes": [
+                {
+                    "time": "10:51",
+                    "delay": 5,
+                    "lands": [
+                        {
+                            "id": 4,
+                            "duration": 0,
+                            "seconds": 1,
+                            "first_water": {
+                                "minutes": 0,
+                                "seconds": 1
+                            },
+                            "last_water": {
+                                "minutes": 4,
+                                "seconds": 1
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "duration": 0,
+                            "seconds": 1,
+                            "first_water": {
+                                "minutes": 0,
+                                "seconds": 1
+                            },
+                            "last_water": {
+                                "minutes": 4,
+                                "seconds": 1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "date": "14/03/2024"
+}

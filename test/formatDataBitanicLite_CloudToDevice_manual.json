@@ -1,0 +1,17 @@
+{
+    "type": "lite",
+    "mode": "manual",
+    "setting": {
+        "output": [
+            {
+                "nama":"pompa1",
+                "active": true
+            },
+            {
+                
+                "nama":"pompa1",
+                "active": true
+            }
+        ]
+    }
+}
